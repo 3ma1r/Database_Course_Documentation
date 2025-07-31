@@ -10,3 +10,8 @@
 | **Example Usage**  | Contact lists, log files, CSV exports                                           | Banking systems, online stores, business management apps                            |
 | **Drawbacks**      | Difficult to manage, high risk of inconsistency, poor scalability               | Requires setup and learning, can be complex for simple use cases                    |
 
+## 2. DBMS Advantages – Mind Map
+
+![DBMS Mind Map](dbms_mindmap.png)
+
+
