@@ -1,56 +1,35 @@
-<h1 align="center">Database Search and Reporting</h1>
+# 📘 Database Course Documentation
 
-## 1. Flat File Systems vs. Relational Databases:
+This repository contains a comprehensive report for the **Database Search and Reporting** assignment, covering essential database concepts and structured analysis. All sections are documented in the `report.md` file.
 
-### Structure
-- **Flat File Systems:**  
-  Data is stored in a single table or text file (such as `.txt` or `.csv`). Each line typically represents a record, and fields are separated by delimiters like commas or tabs. There is no enforced structure or relationships between data entries.
 
-- **Relational Databases:**  
-  Data is organized into multiple related tables (relations) with defined schemas. Each table has rows (records) and columns (fields), and tables can be linked using primary and foreign keys.
+## 📚 Table of Contents
 
----
+1. [Flat File Systems vs. Relational Databases](#1-flat-file-systems-vs-relational-databases)
+2. [DBMS Advantages – Mind Map](#2-dbms-advantages--mind-map)
+3. [Roles in a Database System](#3-roles-in-a-database-system)
+4. [Types of Databases](#4-types-of-databases)
+5. [Cloud Storage and Databases](#5-cloud-storage-and-databases)
+6. [References](#references)
 
-### Data Redundancy
-- **Flat File Systems:**  
-  High data redundancy. Because there’s no relationship mechanism, repeated data (e.g., customer names) must be entered in every relevant file, increasing the risk of inconsistency.
 
-- **Relational Databases:**  
-  Low redundancy. By normalizing data and separating it into related tables, duplication is minimized. Shared data is stored once and referenced across tables.
+## 🔍 Report Overview
 
----
+The report includes:
 
-### Relationships
-- **Flat File Systems:**  
-  No support for data relationships. All data must exist in a single file or duplicated across multiple files without linkage.
+1. **Flat File Systems vs. Relational Databases**  
+   A detailed comparison of structure, redundancy, relationships, usage, and drawbacks.
 
-- **Relational Databases:**  
-  Designed to support relationships through keys. You can create one-to-one, one-to-many, and many-to-many relationships across tables, enabling flexible and powerful data modeling.
+2. **DBMS Advantages – Mind Map**  
+   A visual representation of the key benefits of using a Database Management System, including security, integrity, backup, and more.
 
----
+3. **Roles in a Database System**  
+   Descriptions of six key roles: System Analyst, Database Designer, Developer, DBA, Application Developer, and BI Developer.
 
-### Example Usage
-- **Flat File Systems:**  
-  Simple data storage for small applications, logs, configuration files, contact lists, and temporary data export/import operations.
+4. **Types of Databases**  
+   Explanation of relational vs. non-relational, centralized, distributed, and cloud databases with real-world examples.
 
-- **Relational Databases:**  
-  Used in business applications, banking systems, online shopping platforms, customer management systems, and any use case requiring structured and interconnected data.
+5. **Cloud Storage and Databases**  
+   Discussion on how cloud storage supports databases, including benefits and challenges of services like Azure SQL, Amazon RDS, and Google Cloud Spanner.
 
----
-
-### Drawbacks
-
-**Flat File Systems**
-- Difficult to scale as data grows
-- Poor data integrity
-- High chance of anomalies (insertion, update, deletion)
-- Difficult to manage concurrency
-
-**Relational Databases**
-- Requires a DBMS setup
-- Learning curve for database design
-- Can be complex for very basic tasks
-- Slightly more overhead than simple file storage
-
----
-
+📄 View the full report here: [report.md](./report.md)
